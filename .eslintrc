@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["react-app", "airbnb"],
+  "rules": {
+    "arrow-body-style": ["error", "as-needed"],
+    "no-shadow": 0,
+    "jsx-quotes": [2, "prefer-single"],
+    "operator-linebreak": [
+      "error",
+      "after",
+      { "overrides": { "?": "before", ":": "before" } }
+    ],
+    "object-shorthand": [2, "always"]
+  }
+}
